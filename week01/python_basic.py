@@ -75,3 +75,4 @@ a[1] = 'y' # 오류 발생
 
 a = "Python is difficult."
 print(a.replace("difficult", "funny"))
+print(a)
