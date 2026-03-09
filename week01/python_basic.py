@@ -57,3 +57,4 @@ print(a.index('y'))
 # 문자 삽입
 b = ","
 c = b.join('Abcd')
+print(c)
