@@ -95,3 +95,6 @@ d = [1, 2, [3, 4], ['Life', 'is']]
 print(d[0])
 print(d[2])
 print(d[3][-1])
+
+# 리스트 슬라이싱
+print(d[0:3])
