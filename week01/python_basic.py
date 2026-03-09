@@ -73,6 +73,7 @@ print(d.strip())
 a = "Pithon"
 # a[1] = 'y' # 오류 발생
 
+# 문자열 바꾸기
 a = "Python is difficult."
-print(a.replace("diffi", "funny"))
+print(a.replace("difficult", "funny"))
 print(a)
