@@ -70,3 +70,7 @@ print(d.rstrip())
 print(d.strip())
 
 # 문자열 수정 (불가능)
+a = "Python"
+a[1]
+a = "Python is difficult."
+print(a.replace(difficult))
