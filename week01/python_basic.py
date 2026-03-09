@@ -56,4 +56,4 @@ print(a.index('y'))
 
 # 문자 삽입
 b = ","
-c = b.join
+c = b.join('Abcd')
