@@ -39,3 +39,5 @@ print(a[-2])
 b = a[0] + a[1] + a[2]
 print(b)
 
+print(a[4:6])
+print([19:])
