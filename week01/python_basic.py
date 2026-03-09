@@ -51,5 +51,5 @@ print(a.count('p'))
 # 문자 위치 확인
 print(a.find('y'))
 print(a.find('p'))
-pirnt(a.index('y'))
-# print(a.index('p'))
+print(a.index('y'))
+print(a.index('p')) # 오류 발생
