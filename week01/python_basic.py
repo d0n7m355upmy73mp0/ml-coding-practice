@@ -111,3 +111,4 @@ print(a * 3)
 a[2] = 99
 print(a)
 
+a[]
