@@ -309,8 +309,15 @@ def sum1(a, b):
     return x
 
 def sum2(*args):
-    print(datatype(args))
+    print(type(args))
     x = 0
     for i in args:
         x += i
     return x
+
+# 함수 호출
+a = 5
+b = 3
+print(sum1(a, b))
+print(sum1(3, 5))
+print(sum)
