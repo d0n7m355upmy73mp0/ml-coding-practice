@@ -311,6 +311,7 @@ def sum1(a, b):
 def sum2(*args):
     print(type(args))
     x = 0
+    pass
     for i in args:
         x += i
     return x
