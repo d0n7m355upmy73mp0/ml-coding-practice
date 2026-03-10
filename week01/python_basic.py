@@ -247,7 +247,7 @@ print(s2)
 s2.update([6, 7, 8, 9, 10])
 print(s2)
 
-
+s2
 
 
 
