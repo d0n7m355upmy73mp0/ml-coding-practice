@@ -111,4 +111,5 @@ print(a * 3)
 a[2] = 99
 print(a)
 
-a[]
+a[1:2] = ['a', 'b', 'c']
+print(a)
