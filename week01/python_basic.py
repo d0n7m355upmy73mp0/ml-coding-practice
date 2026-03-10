@@ -199,4 +199,4 @@ print(dic['name'])
 
 # key의 리스트 만들기
 print(dic.keys())
-print(dic[])
+print(list(dic.keys()))
