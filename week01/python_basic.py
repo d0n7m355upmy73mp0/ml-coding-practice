@@ -203,6 +203,8 @@ print(list(dic.keys()))
 
 for key in dic.keys():
     print(dic[key])
+    
+
 
 # key, value 쌍 구하기
 print(dic.items())
