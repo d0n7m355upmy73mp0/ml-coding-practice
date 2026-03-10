@@ -114,3 +114,5 @@ print(a)
 a[1:2] = ['a', 'b', 'c']
 print(a)
 
+a[-1] =['d', 'e', 'f']
+print(a)
