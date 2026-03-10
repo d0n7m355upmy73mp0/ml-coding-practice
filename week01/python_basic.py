@@ -210,3 +210,6 @@ for key, value in dic.items():
 # 원소 삭제
 dic.clear()
 print(dic)
+
+# 집합 만들기
+s1 = 
