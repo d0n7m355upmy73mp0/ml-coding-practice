@@ -309,6 +309,7 @@ def sum1(a, b):
     return x
 
 def sum2(*args):
+    print(datatype(args))
     x = 0
     for i in args:
         x += i
