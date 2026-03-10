@@ -202,4 +202,7 @@ print(dic.keys())
 print(list(dic.keys()))
 
 # key, value 쌍 구하기
-print(key 
+print(dic.items())
+
+for key, val in dic.items():
+    print(key + ":" + val)
