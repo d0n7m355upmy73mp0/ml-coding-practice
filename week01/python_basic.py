@@ -459,5 +459,9 @@ f.close()
 f = open('example.txt', 'r')
 data = f.read()
 f.close()
-print(data)
+data
+
+# with open() as 파일 객체
+with open('example.txt', 'w') as f:
+    f.write("Now is better than never.")
 
