@@ -445,6 +445,11 @@ while True:
     
 f.close()
 
+# 파일 모드 'r' - readlines()
+f = open('eszmple.txt', 'r')
+lines = f.readlines()
+print(lines)
+
 # 파일 모드 'r' - read()
 f = open('example.txt', 'r')
 data = f.read()
