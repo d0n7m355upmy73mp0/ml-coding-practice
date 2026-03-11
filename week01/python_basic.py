@@ -362,3 +362,4 @@ print(tuple([1, 2, 3]))
 # x의 자료형을 반환
 print(type("abc"))
 print(type(a))
+
