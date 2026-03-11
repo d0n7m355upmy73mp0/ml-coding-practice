@@ -459,5 +459,5 @@ f.close()
 f = open('example.txt', 'r')
 data = f.read()
 f.close()
-data
+print(data)
 
