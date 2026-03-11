@@ -375,3 +375,5 @@ print(max("Python"))
 print(min([1, 4, 2, 8, 6]))
 print(min("Python"))
 
+# x의 y제곱 결과값 반환
+print(pow(2, 4))
