@@ -458,7 +458,6 @@ f.close()
 # 파일 모드 'r' - read()
 f = open('example.txt', 'r')
 data = f.read()
-data2 = f.write("s")
 f.close()
 data
 
@@ -466,4 +465,3 @@ data
 with open('example.txt', 'w') as f:
     f.write("Now is better than never.")
 # data = f.read()       # 오류 발생
-
