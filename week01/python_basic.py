@@ -446,4 +446,7 @@ while True:
 f.close()
 
 # 파일 모드 'r' - read()
-f = open()
+f = open('exwample.txt', 'r')
+data = f.read()
+f.close()
+data
