@@ -88,4 +88,14 @@ print(winner_df)
 
 print(sample_df.reset_index())
 
-print(sample_df.reset_index(drop=True))
+print(sample_df.reset_index(drop=True))         # 기존 인덱스는 제거하기
+
+print(sample_df.set_index('var_1'))
+
+
+print(sample_df.describe())
+print(sample_df.std())
+print(sample_df.agg(['count', 'mean', 'std', 'min', 'max']))
+
+flie_url = 'https://media.githubusercontent.com/media/musthave-ML10/data_soutce/main/iris.cvs'
+iris = pd.read_csv(file_url)
