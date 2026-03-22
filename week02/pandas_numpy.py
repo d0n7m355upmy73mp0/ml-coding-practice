@@ -58,7 +58,7 @@ print(less2015.head())
 
 print((netflix['release_year'] > 2015) & (netflix['type'] == 'TV Show'))
 
-more
+more2015_ty = netflix[(netflix['release_year'] > 2015 |['type'] == 'TV Show')]
 
 
 
