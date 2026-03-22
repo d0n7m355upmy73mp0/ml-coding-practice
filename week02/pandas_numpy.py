@@ -190,3 +190,5 @@ print(np_a - 5)
 print(np_a * 2)
 print(np_a+10 / 3)
 
+
+
