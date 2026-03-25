@@ -69,3 +69,4 @@ plt.xlabel('Count')
 plt.ylabel('Gender')
 plt.legend(bars, ['Survived - Female', 'Survived - Male'], loc='upper right')
 
+
