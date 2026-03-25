@@ -96,4 +96,5 @@ plt.xlabel('Age')
 plt.ylabel('Fare')
 plt.legend(handles=scatter.legend_elements()[0], title='Survived',
            lavels=['Not Survived', 'Survived'], loc='upper right')
-plt.savefig('F')
+plt.savefig('Figure04.png')
+plt.close()
