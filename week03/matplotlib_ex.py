@@ -85,3 +85,4 @@ print(titanic.info(),'\n')
 
 # 결측지 처리
 titanic = titanic.dropna(subset=['Age', 'Fare', 'Survived'])
+print(titanic.info())
