@@ -6,3 +6,6 @@ import pandas as pd
 
 titanic = pd.read_csv('3.1.1.titanic.csv')
 
+# head( ) 함수를 출력하여 타이타닉 데이터셋의 구성을 간단히 살펴보기
+
+# 데이터 처음 5개의 챙 출력
