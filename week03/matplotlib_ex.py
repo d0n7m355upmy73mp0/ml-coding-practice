@@ -19,3 +19,6 @@ print(titanic.info())
 # 객실 등급에 따른 생존자와 사망자의 평균 계산
 pclass_survived_mean = titanic.groupby('Pclass')['Survived'].mean().reset_index()
 print(pclass_survived_mean)
+
+# 맷플롯립 라이브러리 불러오기
+import matplotlib.pyplot as plt
