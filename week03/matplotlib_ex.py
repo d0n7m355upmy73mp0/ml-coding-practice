@@ -3,7 +3,6 @@
 import pandas as pd
 
 # 타이타닉 CSV 파일 불러오기
-
 titanic = pd.read_csv('3.1.1.titanic.csv')
 
 # head( ) 함수를 출력하여 타이타닉 데이터셋의 구성을 간단히 살펴보기
@@ -18,7 +17,7 @@ print(titanic.info())
 
 # 객실 등급에 따른 생존자와 사망자의 평균 계산
 pclass_survived_mean = titanic.groupby('Pclass')['Survived'].mean().reset_index()
-print(pclass_survived_mean)
+pclass_survived_mean
 
 # 맷플롯립 라이브러리 불러오기
 import matplotlib.pyplot as plt
