@@ -164,7 +164,7 @@ titanic = titanic.dropna(subset=['Age', 'Fare'])
 age_groups = pd.cut(titanic['Age'], bins=range(0, 81, 5))
 
 # Age, Survived 기준으로 그룹화
-survived_counts = titanic.groupby([age_groups, 'Survived'], observed=False).size().unstack().fillna(0)
+survived_counts = titanic.groupby([age_groups, 'Survived'], observed=False)
 print(survived_counts)
 
 # 영역 채우기 그래프 그리기
