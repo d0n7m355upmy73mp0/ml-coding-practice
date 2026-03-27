@@ -130,3 +130,4 @@ plt.title('Distribution of Ages on the Titanic')
 plt.grid(axis='y', linedstyle='--', alpha=0.7)
 plt.savefig('Figure06.png')
 plt.close()
+
