@@ -195,4 +195,7 @@ print(titanic.info())
 
 # 승객 등급에 따른 나이의 박스 플롯
 plt.boxplot([titanic[titanic['Pclass'] == 1]['Age'],
-             titanic[titanic['Pclass'] == 2['Age']]])
+             titanic[titanic['Pclass'] == 2]['Age']],
+            labels=['1st Class', '2nd Class', '3rd Class'])
+
+plt.title('Box Plot for Age by Pclass')
