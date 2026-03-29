@@ -258,3 +258,4 @@ plt.xticks(fare_means.index)
 plt.legend()
 plt.savefig('Figure11.png')
 plt.close()
+
