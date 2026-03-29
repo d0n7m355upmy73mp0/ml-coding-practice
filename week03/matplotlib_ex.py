@@ -247,4 +247,14 @@ print(fare_std)
 # 에러바로 요금의 평균과 표준 편차 표현
 plt.figure(figsize=(10, 6))
 
-# 에러바로 요금의 평균과 표준 편차 표현
+# 에러바 생성
+plt.errorbar(fare_means.index, fare_means, yerr=fare_std, fmt='o',
+             capsize=5, capthick=1, label='Fare')
+
+plt.title('Error Bar Plot of Fare by Parch')
+plt.xlabel('Parch')
+plt.ylabel('Fare')
+plt.xticks(fare_means.index)
+plt.legend()
+plt.savefig('Figure11.png')
+plt.close()
