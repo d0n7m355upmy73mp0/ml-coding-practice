@@ -314,3 +314,4 @@ plt.suptitle('Survival Analysis by Number of Parents/Children (Parch) on the Tit
 plt.tight_layout()
 plt.savefig('Figure13.png')
 plt.close()
+
