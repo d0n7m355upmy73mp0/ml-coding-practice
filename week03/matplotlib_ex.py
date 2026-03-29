@@ -399,3 +399,9 @@ plt.savefig('Figure16.png')
 plt.close()
 
 ## **그래프 저장하기**
+
+# 히스토그램 그리기
+plt.hist(titanic['Age'], bins=20, color='skyblue', edgecolor='black')
+plt.xlabel('Age')
+plt.ylabel('Count')
+plt.title('Distribution of Ages on the Titanic')
