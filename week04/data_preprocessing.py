@@ -4,4 +4,8 @@
 from pathlib import Path
 import numpy as np
 import pandas as pd
-import tarfileimport urllib.request
+import tarfile
+import urllib.request
+
+def load_housing_data():
+    tarball_path = Path("dataset")
