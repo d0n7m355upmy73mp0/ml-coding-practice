@@ -46,3 +46,4 @@ imputer.fit(housing_num)
 print(imputer.statistics_)          # imputer 결과 값
 print(housing_num.median().valus)   # 수동으로 계산한 중간값
 
+# ㅎ
