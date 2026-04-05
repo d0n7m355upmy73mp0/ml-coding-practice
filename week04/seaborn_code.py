@@ -74,4 +74,8 @@ plt.savefig('./week04/Seaborn_Figure04.jpg')
 # **조인트 그래프**
 # jointplot( ) 그리기
 sns.jointplot(x='size', y='tip', data=tips, kind='scatter')
-plt
+plt.savefig('./week04/Seaborn_Figure05.jpg')
+
+# **관계 그래프**
+# pairplot( ) 그리기
+sns.pairplot(data=tips, hue='sex',)
