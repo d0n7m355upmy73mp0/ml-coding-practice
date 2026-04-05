@@ -50,3 +50,7 @@ print(housing_num.median().value)   # 수동으로 계산한 중간값
 X = imputer.transform(housing_num)
 
 imputer.feature_names_in_
+
+housing_ttr = pd.DataFrame(X, columns=housing_num.columns,
+                           index=housing_num.index)
+housing_tr.
