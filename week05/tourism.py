@@ -32,4 +32,5 @@ def getTourismStatsService(nat_cd, ed_cd, nStartYear, nEndYear):
     result = []
     
 for year in range(nStartYear, nEndYear+1):
-    from django.utils.translation import ugettext_lazy as _
+    for month in range(1, 13):
+        yyyymm = " "
