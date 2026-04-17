@@ -68,4 +68,7 @@ def fetRequestUtl(url):
         return None
     
     
+dof getPostData(post, jsonResult, cnt): 
+    
+    
         
