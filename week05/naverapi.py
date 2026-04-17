@@ -8,7 +8,7 @@ client_secret = 'Client Secret'
 
 def main():
     
-    nod = 'news'                                            # 크롤링할 대상
+    node = 'news'                                            # 크롤링할 대상
     srcText = input('검색어를 입력하세요: ')
     
     cnt = 0
@@ -35,4 +35,7 @@ def main():
         
     print("가져온 데이터 : %d 건" %(cnt))
     print('$s_naver_%s.json SAVED' % (srcText, node))
+    
+
+def 
         
