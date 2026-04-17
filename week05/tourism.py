@@ -32,4 +32,4 @@ def getTourismStatsService(nat_cd, ed_cd, nStartYear, nEndYear):
     result = []
     
 for year in range(nStartYear, nEndYear+1):
-    for
+    from django.utils.translation import ugettext_lazy as _
