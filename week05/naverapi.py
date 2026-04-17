@@ -51,6 +51,15 @@ def getNaverSearch(node, srcText, page_start, display):
         return json.loads(responseDecode)
     
 
+def fetRequestUtl(url):
+    req = urllib.request.Request(url)
+    
+    req.add_header("X-Naver-Client-Id", client_id)
+    req.add_header("X-naver-Client-Secret", client_secret)
+    
+    try:
+        respense = urllib.request.urlopen(req)
+        if response = urllib
     
     
         
