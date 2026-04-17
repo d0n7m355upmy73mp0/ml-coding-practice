@@ -4,7 +4,7 @@ import datetime
 import json
 import pandas as pd
 
-ServiceKey "자신의 Service Key"
+ServiceKey = "자신의 Service Key"
 
 """### [CODE 0]"""
 
@@ -59,5 +59,5 @@ def getTourismStatsService(nat_cd, ed_cd, nStartYear, nEndYear):
 def getTourismStatsItem(yyyymm, nat_cd, ed_cd):
     service_url = "http://openapi.tour.go.kr/openapi/service/EdrcntTourismStatsService/getEdrcntTourismStatsList"
     parameters = "?_type=json&serviceKey=" + ServiceKey       # 인증키
-    
+    parameters += ""
                 
