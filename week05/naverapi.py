@@ -59,7 +59,8 @@ def fetRequestUtl(url):
     
     try:
         respense = urllib.request.urlopen(req)
-        if response = urllib
+        if response.getcode() == 200:
+            print("[%s] Url Request Success" % datetime.datetime.now())
     
     
         
