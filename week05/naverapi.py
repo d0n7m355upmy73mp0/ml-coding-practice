@@ -76,6 +76,6 @@ def getPostData(post, jsonResult, cnt):  #[CODE 3]
     
     # %a: 짧은 형식의 요일 이름 (예, 'Mon', "Tue', "Wed', ...)
     # %d: 일 (예, 01, 02, 03, ...)
-    # %b
+    # %b: 짧은 형식의 월 이름  (예, )
     
         
