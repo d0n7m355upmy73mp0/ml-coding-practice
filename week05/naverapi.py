@@ -64,7 +64,8 @@ def fetRequestUtl(url):
             return response.read().decode('utf-8')
     except Exception as e:
         print(e)
-        print("[%s] Error for URL : %s" % (datetiom))
+        print("[%s] Error for URL : %s" % (datetime))
+        return None
     
     
         
