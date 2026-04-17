@@ -27,5 +27,5 @@ def main():
         
     print('전체 검색 : %d 건' %total)
     
-    with open('%s')
+    with open('%s_naver_%s.jason' % (srcText, node), 'w', encoding = 'utf8') as outfile:
         
