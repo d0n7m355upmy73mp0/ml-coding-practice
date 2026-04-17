@@ -37,3 +37,5 @@ for year in range(nStartYear, nEndYear+1):
         jsonData = getTourismStatsItem(yyyymm, nat_cd, ed_cd)   #[CODE 2]
         if (jsonData['respinse']['header']['resultMsg'] == 'OK'):
             #데이터가 없는 마지막 항목인 경우 ----------------------------
+            if jsonData['response']['body']['items'] == '':
+                dataEND = "{0}"
