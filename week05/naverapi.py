@@ -37,5 +37,6 @@ def main():
     print('$s_naver_%s.json SAVED' % (srcText, node))
     
 
-def 
+def getNaverSearch(node, srcText, page_start, display):
+    
         
