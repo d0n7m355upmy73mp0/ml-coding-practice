@@ -50,5 +50,7 @@ def getNaverSearch(node, srcText, page_start, display):
     else:
         return json.loads(responseDecode)
     
+
+    
     
         
