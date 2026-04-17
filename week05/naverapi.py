@@ -68,7 +68,7 @@ def fetRequestUtl(url):
         return None
     
     
-dof getPostData(post, jsonResult, cnt): 
+def getPostData(post, jsonResult, cnt):  #[CODE 3]
     
     
         
