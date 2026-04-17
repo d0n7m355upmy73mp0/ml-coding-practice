@@ -86,7 +86,9 @@ def getPostData(post, jsonResult, cnt):  #[CODE 3]
         'description' : description,
         'org_link': org_link,
         'link': link,
-        'pDate': pData
+        'pDate': pDate
     })
-    
+    return
+
+main()
         
