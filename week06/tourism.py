@@ -8,4 +8,5 @@ ServiceKey = "자신의 Service Key"
 
 """### [CODE 0]"""
 
-de
+def main():
+j
