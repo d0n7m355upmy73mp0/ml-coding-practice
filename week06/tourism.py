@@ -35,5 +35,5 @@ def main():
             for month in range(1, 13):
                 yyyymm = "{0}{1:0>2}".format(str(year), str(month))
                 jsonDate = getTourismsStatsItem(yyyymm, nat_cd, ed_cd)      #[CODE 2]
-            if (jsonDate[]'response'])
+            if (jsonDate['response'])
         ]
