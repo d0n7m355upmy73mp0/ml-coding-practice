@@ -86,5 +86,5 @@ def getTourismStatsItem(yyyymm, nat_cd, ed_cd):
             print(e)
             print("[%s] Url Request Success" % datetime.datetime.nov()))
             return None
-        
+    
 main()
