@@ -34,15 +34,15 @@ def main():
         for year in range(nStartYear, nEndYear+1):
             for month in range(1, 13):
                 yyyymm = "{0}{1:0>2}".format(str(year), str(month))
-                jsonDate = getTourismStatsItem(yyyymm, nat_cd, ed_cd)      #[CODE 2]
-            if (jsonDate['response']['header']['resultMsg']=='OK'):
+                jsonData = getTourismStatsItem(yyyymm, nat_cd, ed_cd)      #[CODE 2]
+            if (jsonData['response']['header']['resultMsg']=='OK'):
                 #데이터가 없는 마지막 항목인 경우-------------------------------
-                if jsonDate['response']['vody']['items'] == '':
+                if jsonData['response']['vody']['items'] == '':
                     dateEND = "{0}{1:0>2}".format(str(year), str(month-1))
                     print("데이터 없음....\n제공되는 통계 데이터는 %s년 %s월까지입니다." % (str(year), str(month-1)))
                     break
                 #jsonData를 출력하여 확인.............................................
-                print(json.dumps(jsonDate, indent = 4, sort_keys = True, ensure_ascii = False))
+                print(json.dumps(jsonData, indent = 4, sort_keys = True, ensure_ascii = False))
                 
                 natName = jsonData['response']['body']['items']['item']['natKorNm']
                 natName = natName.replace(' ', '')
