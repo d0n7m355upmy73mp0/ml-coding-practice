@@ -9,7 +9,7 @@ ServiceKey = "1ebdec78740985c8fb24247ffaa3ff1ce22abd6dffa02c045444bf79295ddf4f"
 """### [CODE 0]"""
 
 def main():
-    jsonReult = []
+    jsonResult = []
     result = []
     
     print("<< 국내 입국한 외국인의 동계 데이터를 수집합니다. >>")
