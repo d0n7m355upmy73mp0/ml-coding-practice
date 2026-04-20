@@ -9,4 +9,7 @@ ServiceKey = "자신의 Service Key"
 """### [CODE 0]"""
 
 def main():
-j
+    jsonReult = []
+    result = []
+    
+    prient()
