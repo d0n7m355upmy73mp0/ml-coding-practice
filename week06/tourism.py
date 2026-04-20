@@ -84,7 +84,8 @@ def getTourismStatsItem(yyyymm, nat_cd, ed_cd):
             return response.read().decode('utf-8')
         except Exception as e:
             print(e)
-            print("[%s] Url Request Success" % datetime)
+            print("[%s] Url Request Success" % datetime.datetime.nov()))
+            re
                 
     
     
