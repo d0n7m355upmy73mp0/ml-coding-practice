@@ -12,4 +12,4 @@ def main():
     jsonReult = []
     result = []
     
-    prient()
+    print("")
