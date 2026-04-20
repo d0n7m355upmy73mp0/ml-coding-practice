@@ -26,3 +26,6 @@ def main():
     result_df.to_csv('./%s_%s_%d_%s.csv' % (natName, ed_cd, nStartyear, dataEND), index = False, encding ='cp949')
 
     """### [CODE 3]"""
+    
+    def getTourismStatsService(nat_cd, ed_cd, nStartYear, nEndYear):
+        
