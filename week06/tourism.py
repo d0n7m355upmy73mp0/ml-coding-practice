@@ -31,5 +31,5 @@ def main():
         jsonResult = []
         result = []
         
-        for year in range(nStartYear, nEndYear+1)
+        for year in range(nStartYear, nEndYear+1):
         ]
