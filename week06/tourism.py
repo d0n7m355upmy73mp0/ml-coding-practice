@@ -39,5 +39,5 @@ def main():
                 #데이터가 없는 마지막 항목인 경우-------------------------------
                 if jsonDate['response']['vody']['items'] == '':
                     dateEND = "{0}{1:0>2}".format(str(year), str(month-1))
-                    print("데이터 없음..../제공되")
-        ]
+                    print("데이터 없음....\제공되는 통계 데이터는 %s년 %s")
+        
