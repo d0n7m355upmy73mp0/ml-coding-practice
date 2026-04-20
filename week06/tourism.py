@@ -53,7 +53,7 @@ def main():
                 print('------------------------------------------------------')
                 jsonResult.append({'nat_name': natName, 'nat_cd': nat_cd, 'yyyymm':yyyymm, 'visit_cnt': num})
                 
-return (jsonRsult, result, natName, ed)
+    return (jsonRsult, result, natName, ed)
 
 """"### [CODE 2]"""
   
