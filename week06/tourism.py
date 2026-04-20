@@ -38,5 +38,5 @@ def main():
             if (jsonDate['response']['header']['resultMsg']=='OK'):
                 #데이터가 없는 마지막 항목인 경우-------------------------------
                 if jsonDate['response']['vody']['items'] == '':
-                    
+                    dateEND = "{0}{1:0>2}". 
         ]
