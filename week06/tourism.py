@@ -33,6 +33,7 @@ def main():
         
         for year in range(nStartYear, nEndYear+1):
             for month in range(1, 13):
-                yyyymm = getTourismStatsItem(yyyymm, nat_cd, ed_cd)
+                yyyymm = getTourismStatsItem(yyyymm, nat_cd, ed_cd)     #[CODE 2]
+                j
             
         ]
