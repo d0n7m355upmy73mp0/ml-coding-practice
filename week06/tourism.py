@@ -12,4 +12,4 @@ def main():
     jsonReult = []
     result = []
     
-    print("")
+    print("<< 국내 입국한 외국인의 동계 데이터를 수집합니다.>>")
