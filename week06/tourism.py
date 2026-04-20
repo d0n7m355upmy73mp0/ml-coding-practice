@@ -85,7 +85,6 @@ def getTourismStatsItem(yyyymm, nat_cd, ed_cd):
         except Exception as e:
             print(e)
             print("[%s] Url Request Success" % datetime.datetime.nov()))
-            re
-                
-    
-    
+            return None
+        
+main()
