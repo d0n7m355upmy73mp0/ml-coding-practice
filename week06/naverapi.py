@@ -2,6 +2,5 @@
 import urllib.request
 import datetime
 import json
-import pandas as pd
 
-ServiceKey = ""
+ServiceKey = "4I_PCGeCfT46gzmmiHtm"
