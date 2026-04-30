@@ -19,3 +19,9 @@ def plot_digit(image_data):
     plt.axis("off")
     
 some_difit = X[0]
+plot_digit(some_digit)
+plt.show()
+
+print(y[0])         # 셈플 데이터 레이블 확인 (=5)
+
+print()
