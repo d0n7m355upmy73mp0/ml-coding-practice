@@ -100,4 +100,8 @@ plt.zxis([0, 3, 0, 3.5])
 plt.grid()
 plt.show()
 
-from sklear.linear_model import Ridge
+from sklearn.linear_model import Ridge
+
+ridge_ref = Ridge(alpha=0.1, solver="cholesky")
+ridge_ref.fit(X, y)
+print(ridge_reg.predict([[1.5]]))
