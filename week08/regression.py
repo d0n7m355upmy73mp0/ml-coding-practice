@@ -76,4 +76,19 @@ y_new = lin_reg.predict(X_new_poly)
 plt.figure(figsize=(6, 4))
 plt.plot(X, y, "b.")
 plt.plot(X_new, y_new, "r-", linesidth=2, label="Predictions")
-plt.xlabel("")
+plt.xlabel("$x_1$")
+plt.ylabel("$y$", retation=0)
+plt.legend(loc="upper left")
+plt.axis([-3, 3, 0, 10])
+plt.grid()
+plt.show()
+
+# 릿지 회귀
+
+np.random.seed(42)
+m = 20
+X = 3 * np.random.rand(m, 1)
+y = 1 + 0.5 * X + np.random.randn(m, 1) / 1.5
+X_new = np.linspace(0, 3, 100).reshape(100, 1)
+
+# 방금 생성한 데이터셋을 간단히 살펴보기
